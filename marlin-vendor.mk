@@ -107,8 +107,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/google/marlin/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/google/marlin/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/google/marlin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so
-
+    vendor/google/marlin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/google/marlin/proprietary/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/google/marlin/proprietary/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/google/marlin/proprietary/lib/libaptXScheduler.so:system/lib/libaptXScheduler.so
+    
 PRODUCT_PACKAGES += \
     libtime_genoff \
     VZWAPNLib \
