@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/google/marlin/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/google/marlin/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/google/marlin/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
@@ -130,4 +131,5 @@ PRODUCT_PACKAGES += \
     VerizonUnifiedSettings \
     embmslibrary \
     qcrilhook \
-    rcsservice
+    rcsservice \
+    com.google.android.camera.experimental2016
