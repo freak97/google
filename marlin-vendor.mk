@@ -131,4 +131,13 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qcrilhook \
     rcsservice \
-    com.google.android.camera.experimental2016
+    com.google.android.camera.experimental2016 \
+    NetworkSetting \
+    QtiTelephonyService \
+    Tycho \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    radioconfig \
+    xdivert
+    
