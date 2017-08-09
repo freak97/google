@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/bin/cnd:system/bin/cnd \
     vendor/google/marlin/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/google/marlin/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/google/marlin/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/google/marlin/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/google/marlin/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/google/marlin/proprietary/bin/imscmservice:system/bin/imscmservice \
